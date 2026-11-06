@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GLOW by Ro — Catálogo de Belleza</title>
+<meta name="description" content="GLOW by Ro · Catálogo de belleza: skincare, maquillaje, fragancias y cuidado capilar. Productos seleccionados para realzar tu luz natural.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= TOPBAR ================= -->
+<div class="topbar">Envío gratis en compras superiores a $50 · Muestras de regalo en cada pedido</div>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container nav">
+    <!-- LOGO EN EL HEADER -->
+    <a href="#inicio" class="logo">
+      <img src="IMG/LOGO.PNG" alt="GLOW by Ro Logo" class="logo-img">
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#nosotras">Nosotras</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="cartBtn" aria-label="Abrir bolsa">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>
+        </svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menú">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow"><i class="line"></i>Belleza consciente · desde 2019</span>
+        <h1>Tu piel merece<br><em>brillar</em> todos los días.</h1>
+        <p class="lead">En <strong>GLOW by Ro</strong> seleccionamos fórmulas de alta calidad para tu rutina de belleza: skincare, maquillaje, fragancias y cuidado capilar. Simple, honesto y hecho para ti.</p>
+        <div class="hero-cta">
+          <a href="#catalogo" class="btn btn-primary">Explorar catálogo</a>
+          <a href="#nosotras" class="btn btn-outline">Nuestra historia</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>+2.500</strong><span>Clientas felices</span></div>
+          <div><strong>100%</strong><span>Cruelty free</span></div>
+          <div><strong>4.9/5</strong><span>Valoración media</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="arch" data-cat="skincare"><span class="shape"></span></div>
+        <div class="floating-card fc-1">
+          <span class="dot"></span>
+          <div><strong>4.9 / 5</strong><small>+2.500 reseñas</small></div>
+        </div>
+        <div class="floating-card fc-2">
+          <span class="dot gold"></span>
+          <div><strong>Envío gratis</strong><small>en compras +$50</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BENEFITS ================= -->
+  <section class="benefits">
+    <div class="container benefits-grid">
+      <div class="benefit">
+        <span class="b-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+        </span>
+        <div><h4>Envío express</h4><p>Entrega en 24–48 h</p></div>
+      </div>
+      <div class="benefit">
+        <span class="b-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-9a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 4.6-7 9-7 9Z"/></svg>
+        </span>
+        <div><h4>Cruelty free</h4><p>Sin testeo animal</p></div>
+      </div>
+      <div class="benefit">
+        <span class="b-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.4-3 7.4-7 9-4-1.6-7-4.6-7-9V6l7-3Z"/><path d="M9 12l2 2 4-4"/></svg>
+        </span>
+        <div><h4>Dermotestado</h4><p>Apto para piel sensible</p></div>
+      </div>
+      <div class="benefit">
+        <span class="b-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+        </span>
+        <div><h4>Pago seguro</h4><p>Compra 100% protegida</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CATÁLOGO ================= -->
+  <section class="catalog" id="catalogo">
+    <div class="container">
+      <header class="section-head">
+        <span class="eyebrow center">Catálogo</span>
+        <h2>Nuestros favoritos</h2>
+        <p>Productos probados y aprobados por nuestro equipo. Elige tu ritual.</p>
+      </header>
+
+      <div class="filters" id="filters"></div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <!-- ================= NOSOTRAS ================= -->
+  <section class="about" id="nosotras">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="arch" data-cat="fragancia"><span class="shape"></span></div>
+      </div>
+      <div class="about-copy">
+        <span class="eyebrow"><i class="line"></i>Nosotras</span>
+        <h2>Belleza real,<br>sin filtros</h2>
+        <p>Nacimos en 2019 con una idea simple: que cada persona pueda encontrar productos honestos, efectivos y bonitos, sin pagar de más. Cada fórmula de nuestro catálogo pasa por un proceso de selección y prueba real.</p>
+        <ul class="about-list">
+          <li>Ingredientes de origen natural y veganos</li>
+          <li>Envases reciclables y recargables</li>
+          <li>Asesoría personalizada por WhatsApp</li>
+          <li>Devolución sin coste durante 30 días</li>
+        </ul>
+        <a href="#catalogo" class="btn btn-primary">Descubrir productos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= OPINIONES ================= -->
+  <section class="testimonials" id="opiniones">
+    <div class="container">
+      <header class="section-head">
+        <span class="eyebrow center">Opiniones</span>
+        <h2>Lo que dicen ellas</h2>
+        <p>Más de 2.500 reseñas verificadas con una media de 4.9 sobre 5.</p>
+      </header>
+
+      <div class="t-grid">
+        <article class="t-card">
+          <div class="stars">★★★★★</div>
+          <p>“El sérum de vitamina C cambió mi piel en tres semanas. Textura ligera, no engrasa y deja un glow precioso.”</p>
+          <div class="t-author"><span class="avatar">M</span><div><strong>María L.</strong><small>Cliente verificada</small></div></div>
+        </article>
+        <article class="t-card">
+          <div class="stars">★★★★★</div>
+          <p>“Atención de 10. Me asesoraron por WhatsApp con mi tipo de piel y acertaron de pleno. Repetiré seguro.”</p>
+          <div class="t-author"><span class="avatar">C</span><div><strong>Carolina R.</strong><small>Cliente verificada</small></div></div>
+        </article>
+        <article class="t-card">
+          <div class="stars">★★★★★</div>
+          <p>“La bruma de flor de azahar es mi obsesión. Llega rapidísimo y el packaging es una preciosidad.”</p>
+          <div class="t-author"><span class="avatar">L</span><div><strong>Lucía G.</strong><small>Cliente verificada</small></div></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NEWSLETTER ================= -->
+  <section class="newsletter">
+    <div class="container news-inner">
+      <span class="eyebrow center light">Club Glow</span>
+      <h2>10% en tu primera compra</h2>
+      <p>Suscríbete y recibe novedades, rutinas y ofertas exclusivas. Sin spam, prometido.</p>
+      <form class="news-form" id="newsForm">
+        <input type="email" placeholder="Tu correo electrónico" required aria-label="Correo electrónico">
+        <button class="btn btn-gold" type="submit">Quiero unirme</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" id="contacto">
+  <div class="container footer-grid">
+    <div class="f-brand">
+      <!-- LOGO EN EL FOOTER -->
+      <a href="#inicio" class="logo">
+        <img src="IMG/LOGO.PNG" alt="GLOW by Ro Logo" class="logo-img">
+      </a>
+      <p>Catálogo de belleza consciente. Productos seleccionados para realzar tu luz natural.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="TikTok">TT</a>
+        <a href="#" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+    <div>
+      <h5>Tienda</h5>
+      <ul><li><a href="#catalogo">Skincare</a></li><li><a href="#catalogo">Maquillaje</a></li><li><a href="#catalogo">Fragancias</a></li><li><a href="#catalogo">Cabello</a></li></ul>
+    </div>
+    <div>
+      <h5>Ayuda</h5>
+      <ul><li><a href="#">Envíos y entregas</a></li><li><a href="#">Devoluciones</a></li><li><a href="#">Preguntas frecuentes</a></li><li><a href="#">Guía de rutinas</a></li></ul>
+    </div>
+    <div>
+      <h5>Contacto</h5>
+      <ul><li>hola@glowbyro.com</li><li>+34 600 000 000</li><li>Lun–Vie · 9:00 a 18:00</li><li><a href="#">@glowbyro</a></li></ul>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <span>© 2026 GLOW by Ro. Todos los derechos reservados.</span>
+    <span>Hecho con amor ♡</span>
+  </div>
+</footer>
+
+<!-- ================= CARRITO ================= -->
+<aside class="cart-panel" id="cartPanel" aria-label="Bolsa de compra">
+  <div class="cart-head">
+    <h3>Tu bolsa</h3>
+    <button class="icon-btn" id="closeCart" aria-label="Cerrar bolsa">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-foot">
+    <div class="row"><span>Subtotal</span><strong id="cartTotal">$0.00</strong></div>
+    <p class="note">Envío calculado en el checkout.</p>
+    <button class="btn btn-primary full" id="checkoutBtn">Finalizar compra</button>
+  </div>
+</aside>
+
+<!-- ================= OVERLAY / MODAL / TOAST ================= -->
+<div class="overlay" id="overlay"></div>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-box" id="modalBox"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
